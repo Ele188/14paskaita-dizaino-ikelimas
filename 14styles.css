@@ -1,0 +1,86 @@
+body {
+  margin: auto;
+}
+header {
+  height: 16rem;
+  width: 100%;
+  background-image: url(photo-1615633135296-eaf81fc754f0.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+}
+
+button {
+  margin-top: 2rem;
+  border: 1px solid white;
+  color: white;
+  background-color: rgba(240, 248, 255, 0);
+  height: 2rem;
+}
+
+.main-button {
+  color: black;
+  border: 1px black solid;
+  width: 120px;
+}
+
+h1,
+h5 {
+  margin: 0;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+h1 {
+  letter-spacing: 7px;
+  font-size: 40px;
+}
+
+h3 {
+  margin-top: -20px;
+  font-weight: bold;
+}
+
+h6 {
+  font-size: 12px;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  justify-content: center;
+  gap: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+p {
+  color: black;
+}
+
+.main-img {
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.about-us {
+  padding-left: 1rem;
+  padding-top: 25px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 300px;
+}
+
+ul {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 15px;
+}
+
+li::marker {
+  color: rgb(24, 229, 24);
+  font-size: 25px;
+}
