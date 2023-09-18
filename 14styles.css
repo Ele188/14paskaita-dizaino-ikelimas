@@ -6,7 +6,6 @@ header {
   width: 100%;
   background-image: url(photo-1615633135296-eaf81fc754f0.jpg);
   background-size: cover;
-  object-fit: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
